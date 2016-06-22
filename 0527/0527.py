@@ -6,9 +6,6 @@ class dic:
 		self.ini  = ini
 		self.sort = sort
 
-	def getName(self):
-		return self.ini, self.sort
-
 # input the dic
 f = open('/usr/share/dict/words','r')
 strList = f.readlines()
